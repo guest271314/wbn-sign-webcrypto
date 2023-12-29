@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { KeyObject } from "crypto";
+import { KeyObject } from "node:crypto";
 import { ISigningStrategy } from "./signing-strategy-interface.js";
 export declare class NodeCryptoSigningStrategy implements ISigningStrategy {
   private readonly privateKey;
