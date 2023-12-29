@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { KeyObject } from "crypto";
+import { KeyObject } from "node:crypto";
 export declare class WebBundleId {
   private readonly appIdSuffix;
   private readonly scheme;
