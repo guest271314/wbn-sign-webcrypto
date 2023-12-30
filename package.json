@@ -1,8 +1,8 @@
 {
-  "name": "wbn-sign",
+  "name": "wbn-sign-webcrypto",
   "version": "0.1.2",
-  "description": "Signing tool to sign a web bundle with integrity block",
-  "homepage": "https://github.com/WICG/webpackage/tree/main/js/sign",
+  "description": "Signing tool to sign a web bundle with integrity block using Web Cryptography API",
+  "homepage": "https://github.com/guest271314/wbn-sign-webcrypto",
   "main": "./lib/wbn-sign.cjs",
   "type": "module",
   "exports": {
@@ -23,24 +23,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WICG/webpackage.git",
-    "directory": "js/sign"
+    "url": "https://github.com/guest271314/wbn-sign-webcrypto.git"
   },
   "keywords": [
     "web bundles",
     "webpackage",
     "integrity-block"
   ],
-  "author": "Sonja Laurila <laurila@google.com> (https://github.com/sonkkeli)",
-  "contributors": [
-    "Christian Flach <cmfcmf@google.com> (https://github.com/cmfcmf)"
-  ],
-  "license": "W3C-20150513",
+  "author": "guest271314 <guest271314@gmail.com> (https://github.com/guest271314)",
+  "license": "WTFPLv2",
   "dependencies": {
     "base32-encode": "^2.0.0",
     "cborg": "^1.9.4",
-    "commander": "^4.0.1",
-    "read": "^2.0.0"
+    "commander": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.0",
