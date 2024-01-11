@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Signing tool to sign a web bundle with integrity block using Web Cryptography API",
   "homepage": "https://github.com/guest271314/wbn-sign-webcrypto",
-  "main": "./lib/wbn-sign.cjs",
+  "main": "./lib/wbn-sign.js",
   "type": "module",
   "exports": {
     "import": "./lib/wbn-sign.js",
